@@ -1,0 +1,172 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Task List Styles */
+.tasks-container {
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tasks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tasks-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+.new-task-btn {
+  background: none;
+  border: none;
+  color: #61dafb;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.new-task-btn:hover {
+  text-decoration: underline;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.task-card {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background: white;
+  border-bottom: 1px solid #f0f0f0;
+  gap: 15px;
+}
+
+.task-card:last-child {
+  border-bottom: none;
+}
+
+.task-icon {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #e8f4f8;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.task-content {
+  flex: 1;
+  text-align: left;
+}
+
+.task-main {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.task-type {
+  font-weight: bold;
+  color: #333;
+  font-size: 15px;
+}
+
+.task-description {
+  color: #666;
+  font-size: 15px;
+}
+
+.task-name {
+  color: #61dafb;
+  font-weight: 600;
+}
+
+.task-details {
+  display: flex;
+  gap: 20px;
+  font-size: 13px;
+  color: #999;
+}
+
+.task-text {
+  color: #999;
+  font-style: italic;
+}
+
+.task-date {
+  color: #999;
+}
+
+.task-action-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  min-width: 100px;
+  flex-shrink: 0;
+}
+
+.task-action-btn:hover {
+  opacity: 0.9;
+}
+
