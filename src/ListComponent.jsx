@@ -9,7 +9,6 @@ function ListComponent({ items }) {
     };
     return iconMap[iconType] || '•';
   };
-
   
   return (
     <div className="tasks-container">
